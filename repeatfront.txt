@@ -1,0 +1,12 @@
+public String repeatFront(String str, int n) {
+  String s="";
+  int l=str.length();
+  int i;
+  int k=n;
+  for(i=0;i<n;i++)
+  {
+    s+=str.substring(0,k);
+   --k;
+  }
+  return s;
+}
